@@ -9,14 +9,16 @@
     .menu-item{
         display: flex;
         flex-direction: column;
+        padding: 30px 0;
+    }
+
+    .widget{
+        border: none;
     }
 
     .side-bar{
-        width: 84px;
+        width: 72px;
     }
-
-
-
 
 }
 
