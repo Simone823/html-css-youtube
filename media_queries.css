@@ -20,6 +20,14 @@
         width: 72px;
     }
 
+    .play-list{
+        flex-wrap: wrap;
+    }
+
+    .play-list-item{
+        flex-basis: calc(100% / 3);
+    }
+
 }
 
 @media screen and (max-width: 800px) {
