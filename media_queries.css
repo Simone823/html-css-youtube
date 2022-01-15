@@ -22,4 +22,16 @@
 
 }
 
+@media screen and (max-width: 800px) {
+
+    .side-bar{
+        display: none;
+    }
+
+    .play-list-item{
+        flex-basis: calc(100% / 2);
+    }
+    
+
+}
 
