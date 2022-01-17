@@ -22,10 +22,12 @@
 
     .play-list{
         flex-wrap: wrap;
+        column-gap: 10px;
+        row-gap: 15px;
     }
 
     .play-list-item{
-        flex-basis: calc(100% / 3);
+        flex-basis: calc(100% / 3 - 15px);
     }
 
 }
@@ -36,8 +38,14 @@
         display: none;
     }
 
+    .play-list{
+        flex-wrap: wrap;
+        column-gap: 10px;
+        row-gap: 15px;
+    }
+
     .play-list-item{
-        flex-basis: calc(100% / 2);
+        flex-basis: calc(100% / 2 - 15px);
     }
     
 
