@@ -65,7 +65,7 @@ header{
   display: contents;
 }
 
-.search_bar ul li button{
+.search_bar button{
   background-color: #f8f8f8;
   border: 1px solid #aaa;
   height: 40px;
