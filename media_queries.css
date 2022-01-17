@@ -63,8 +63,8 @@
    
 }
 
-@media screen and (max-width: 955px) {
-    .search_bar ul li input{
+@media screen and (max-width: 560px) {
+    .search_bar input{
         display: none;
     }    
 }
