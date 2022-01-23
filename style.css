@@ -72,6 +72,37 @@ header{
   padding: 0 22px;
 }
 
+.btn_header{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.btn_header ul{
+  display: contents;
+}
+
+.btn_header li i{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.btn_header li .icon_profile{
+  width: 35px;
+  height: 35px;
+  background-color: gray;
+  border-radius: 50%;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.btn_header li .icon_profile img{
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+
 main{
   display: flex;
   /* border: 2px solid black; */
