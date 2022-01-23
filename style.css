@@ -20,7 +20,7 @@ body{
 
 header{
   padding: 30px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   height: 20px;
   display: flex;
   justify-content: space-between;
